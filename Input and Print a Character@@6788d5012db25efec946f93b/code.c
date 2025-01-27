@@ -1,4 +1,4 @@
-#inlcude stdio.h>
+#inlcude <stdio.h>
 int main(){
     char a;
     scanf("%c",&a);
