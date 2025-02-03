@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()[
+int main(){
     int a,b,c;
     scanf(%d %d %d,&a,&b,&c);
     if((a+b >c) && (b+c >a) && (a+c >b)){
@@ -11,5 +11,4 @@ int main()[
 
 
 
-    return 0;
-]
+    return 0;}
