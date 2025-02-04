@@ -14,7 +14,7 @@ int main(){
         }
     }
     else{
-        print("Special Character");
+        printf("Special Character");
     }
 
 
