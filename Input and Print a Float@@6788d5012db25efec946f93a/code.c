@@ -1,8 +1,8 @@
 #inlcude <stdio.h>
 int main(){
     float n;
-    scanf("%.2f",7n);
-    printf("%f",n);
+    scanf("%.2f",&n);
+    printf("You entered: %f",n);
 
 
 
