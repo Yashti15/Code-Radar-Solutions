@@ -9,7 +9,7 @@ int main(){
     }
     int seven=0,int sodd=0;
     for(int i=0;i<n;i++){
-        if(arr[i]52==0){
+        if(arr[i]%2==0){
             seven+=arr[i];
         }
         else{
