@@ -17,10 +17,11 @@ int main(){
     
     if(count==1){
         printf("%d",arr[i]);
-        break;
+        
     }
     else{
         printf("-1");
+        break;
     }}
     
 
