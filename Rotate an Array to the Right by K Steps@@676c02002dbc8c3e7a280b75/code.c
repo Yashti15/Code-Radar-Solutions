@@ -6,9 +6,7 @@ void reverse(int arr[],int n,int fel,int lel){
         arr[i]=arr[j];
         arr[j]=temp;
     }
-    for(int i=0;i<n;i++){
-        printf("%d ",arr[i]);
-    }
+    
     return ;
 
 
