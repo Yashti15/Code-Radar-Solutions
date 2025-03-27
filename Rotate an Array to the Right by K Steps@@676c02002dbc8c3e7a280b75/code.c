@@ -24,7 +24,7 @@ for(int i=0;i<n;i++){
 }
 int k;
 scanf("\n%d",&k);
-int k=k%2;
+k=k%n;
 
 reverse(arr,n,0,n-1);
 
