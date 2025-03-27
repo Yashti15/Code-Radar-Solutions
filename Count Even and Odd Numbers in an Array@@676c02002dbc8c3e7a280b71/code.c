@@ -10,10 +10,10 @@ int main(){
     int seven=0,sodd=0;
     for(int i=0;i<n;i++){
         if(arr[i]%2==0){
-            seven+=arr[i];
+            seven++;
         }
         else{
-            sodd+=arr[i];
+            sodd++;
         }
     }
     printf("%d %d",seven,sodd);
