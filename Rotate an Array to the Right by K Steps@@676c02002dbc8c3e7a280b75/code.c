@@ -1,0 +1,32 @@
+// Your code here...
+#include <stdio.h>
+void reverse(int arr[],int n;int fel,int lel){
+    for(int i=fel,j=lel;i<=j;i++,j--){
+        int temp=arr[i];
+        arr[i]=arr[j];
+        arr[j]=temp;
+    }
+    for(int i=0;i<n;i++){
+        printf("%d",arr[i]);
+    }
+    return ;
+
+
+}
+int main(){
+scanf("%d",&n);
+int arr[n];
+for(int i=0;i<n;i++){
+    scanf("\n%d ",arr[i]);
+}
+scanf("\n%d",&k);
+reverse(arr,n,0,n-1);
+reverse(arr,0,k-1);
+reverse(arr,k,n-1);
+
+
+
+
+return 0;
+}
+
