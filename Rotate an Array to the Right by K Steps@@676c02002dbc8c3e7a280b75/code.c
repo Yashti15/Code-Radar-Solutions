@@ -21,7 +21,7 @@ for(int i=0;i<n;i++){
     scanf("%d ",&arr[i]);
 }
 int k;
-scanf("\n%d",&k);
+scanf("%d",&k);
 k=k%n;
 
 reverse(arr,0,n-1);
