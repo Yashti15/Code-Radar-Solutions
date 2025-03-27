@@ -16,13 +16,15 @@ void reverse(int arr[],int n,int fel,int lel){
 int main(){
     int n;
 scanf("%d",&n);
+
+
 int arr[n];
 for(int i=0;i<n;i++){
     scanf("\n%d ",&arr[i]);
 }
 int k;
 scanf("\n%d",&k);
-printf("\n");
+
 reverse(arr,n,0,n-1);
 
 
