@@ -15,12 +15,12 @@ void reverse(int arr[],int n,int fel,int lel){
 }
 int main(){
     int n;
-scanf("%d",&n);
+scanf("%d\n",&n);
 
 
 int arr[n];
 for(int i=0;i<n;i++){
-    scanf("\n%d ",&arr[i]);
+    scanf("%d ",&arr[i]);
 }
 int k;
 scanf("\n%d",&k);
