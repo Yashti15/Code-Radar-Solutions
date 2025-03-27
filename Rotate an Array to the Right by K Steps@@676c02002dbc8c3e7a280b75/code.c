@@ -23,8 +23,8 @@ for(int i=0;i<n;i++){
 int k;
 scanf("\n%d",&k);
 reverse(arr,n,0,n-1);
-reverse(arr,n,0,k-1);
-reverse(arr,n,k,n-1);
+reverse(\narr,n,0,k-1);
+reverse(\narr,n,k,n-1);
 
 
 
