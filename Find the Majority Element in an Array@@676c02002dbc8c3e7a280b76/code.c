@@ -15,13 +15,13 @@ int main(){
             }
         }
     
-    if(count=>1){
+    if(count>=1){
         printf("%d",arr[i]);
         
     }
     else{
         printf("-1");
-        break;
+        
     }}
     
 
