@@ -1,5 +1,6 @@
 // Your code here...
 #include <stdio.h>
+#include <stdbool.h>
 int main(){
 int n;
 
@@ -10,16 +11,21 @@ for(int i=0;i<n;i++){
 }
 int t;
 scanf("\n%d",&t);
+bool flag=false;
 for(int i=0;i<n;i++){
     if(arr[i]==t){
-        printf("%d",i);
-        break;
+        flag=true;
+        pair=i;
+        
     }
     
 }
+if(flag==true){
+    printf("%d",pair);
+}
 else{
-        printf("-1");
-    }
+    printf("-1");
+}
 
     return 0;
 }
