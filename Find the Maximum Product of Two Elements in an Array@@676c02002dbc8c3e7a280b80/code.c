@@ -1,6 +1,8 @@
 // Your code here...
 #include <stdio.h>
 #include <stdbool.h>
+#include <limits.h>
+
 
 int main(){
     int n;
