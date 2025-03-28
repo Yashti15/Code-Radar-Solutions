@@ -21,15 +21,7 @@ int main(){
             }
         }
     }
-    if(pair1>pair2){
-        printf("%d %d",pair1,pair2);
-    }
-    else if(pair2>pair1){
-        printf("%d %d",pair2,pair1);
-    }
-    else{
-        printf("-1");
-    }
+    printf("%d %d",pair1,pair2);
 
 
 
