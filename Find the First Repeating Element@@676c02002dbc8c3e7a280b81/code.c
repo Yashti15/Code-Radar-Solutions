@@ -1,41 +1,27 @@
 // Your code here...
-void repeat(int arr[],int n){
-    for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-            if(arr[i]==arr[j]){
-                int repeated=arr[i];
-                printf("%d",repeated);
-                break;
-            }
-            else{
-                printf("-1");
-            }
-        }
-    return ;
-}
 #include <stdio.h>
-void repeat(int arr[],int n){
-    for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-            if(arr[i]==arr[j]){
-                int repeated=arr[i];
-                printf("%d",repeated);
-                break;
-            }
-            else{
-                printf("-1");
+
+void repeat(int arr[], int n) {
+    for (int i = 0; i < n; i++) {
+        for (int j = i + 1; j < n; j++) {
+            if (arr[i] == arr[j]) {
+                printf("%d\n", arr[i]);  // Print first repeated number
+                return;
             }
         }
-    return ;
-}
-int main(){
-    int n;
-    scanf("%d\n",&n);
-    int arr[n];
-    for(int i=0;i<n;i++){
-        scanf("%d ",&arr[i]);
     }
-        
-        repeat(arr,n);
+    printf("-1\n");  // If no repeated number is found
+}
+
+int main() {
+    int n;
+    scanf("%d", &n);  // Corrected scanf
+
+    int arr[n];
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);  // Corrected scanf
+    }
+
+    repeat(arr, n);  // Function call
     return 0;
 }
