@@ -26,8 +26,8 @@ int main(){
     
         
         }
-        reverse(arr[n],n);
-        
+        repeat(arr[n],n);
+
 
 
 
