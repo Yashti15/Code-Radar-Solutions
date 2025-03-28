@@ -24,7 +24,7 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     sorted(arr,n);
-    int sort;
+    
     if(sort==1){
         printf("Sorted");
     }
