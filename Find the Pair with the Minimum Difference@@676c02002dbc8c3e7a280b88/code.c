@@ -14,10 +14,13 @@ int main(){
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             if(abs(arr[i]-arr[j])<max){
-                printf("%d %d",arr[i],arr[j]);
+               max=abs(arr[i]-arr[j]);
+               int pair1=arr[i];
+               int pair2=arr[j];
             }
         }
     }
+    printf("%d %d",pair1,pair2);
 
 
 
