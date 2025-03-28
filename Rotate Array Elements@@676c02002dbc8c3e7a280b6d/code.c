@@ -2,9 +2,9 @@
 #include <stdio.h>
 void reverse(int arr[],int fel,int lel){
     for(int i=fel,j=lel;i<=j;i++,j--){
-        int temp=fel;
-        fel=lel;
-        lel=temp;
+        int temp=arr[i];
+        arr[i]=arr[j];
+        arr[j]=temp;
     }
 }
 int main(){
