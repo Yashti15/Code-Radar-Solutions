@@ -10,7 +10,7 @@ void sorted(int arr[],int n){
         }
         
     }
-     return sort;
+     return ;
     
 }
 int main(){
