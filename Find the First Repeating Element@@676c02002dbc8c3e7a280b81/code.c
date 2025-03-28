@@ -4,6 +4,7 @@ void repeat(int arr[],int n){
         for(int j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
                 repeated=arr[i];
+                printf("%d",repeated);
                 break;
             }
             else{
@@ -23,8 +24,6 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    
-        
         }
         repeat(arr[n],n);
 
