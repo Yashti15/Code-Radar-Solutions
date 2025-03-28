@@ -10,12 +10,13 @@ for(int i=0;i<n;i++){
     scanf("%d ",&arr[i]);
 }
 int t;
+int pair;
 scanf("\n%d",&t);
 bool flag=false;
 for(int i=0;i<n;i++){
     if(arr[i]==t){
         flag=true;
-        int pair=i;
+        pair=i;
         
     }
     
