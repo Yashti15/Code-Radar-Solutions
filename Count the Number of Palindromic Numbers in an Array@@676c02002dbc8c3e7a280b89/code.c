@@ -13,9 +13,9 @@ int palindrome(int num){
 int count(int arr[],int n){
     for(int i=0;i<n;i++){
         int count=0;
-        if(palindorme(arr[i]){
+        if(palindorme(arr[i])){
             count++;
-        })
+        }
         
     }
     return count;
