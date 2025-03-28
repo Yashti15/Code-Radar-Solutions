@@ -25,7 +25,7 @@ int main(){
         scanf("%d ",&arr[i]);
     }
         }
-        repeat(arr[n],n);
+        repeat(arr,n);
 
 
 
