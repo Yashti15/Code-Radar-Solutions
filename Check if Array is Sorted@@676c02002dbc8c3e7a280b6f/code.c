@@ -5,25 +5,13 @@
 void sorted(int arr[],int n){
    
     for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-      
-        if(arr[i]<=arr[j]){
-            int sort=1;
+        if(arr[i+1]>arr[i]){
+           int sort=1;
         }
-        }
-        if(sort==1){
-        printf("Sorted");
+        
     }
-    else{
-        printf("Not Sorted");
-    }
-
-
-
-    }
-
-
-    return ;
+     return sort;
+    
 }
 int main(){
     int n;
@@ -32,7 +20,13 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    sorted(arr,n);
+    if(sorted){
+        printf("Sorted");
+    }
+    else{
+        printf("Not Sorted");
+    }
+    
     
     
 
