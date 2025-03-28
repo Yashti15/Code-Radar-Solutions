@@ -10,6 +10,14 @@ void sorted(int arr[],int n){
             sort=1;
         }
         }
+        if(sort==1){
+        printf("Sorted");
+    }
+    else{
+        printf("Not Sorted");
+    }
+
+
 
     }
 
@@ -25,14 +33,7 @@ int main(){
     }
     sorted(arr,n);
     
-    if(sort==1){
-        printf("Sorted");
-    }
-    else{
-        printf("Not Sorted");
-    }
-
-
+    
 
 
     return 0;
