@@ -12,6 +12,7 @@ int main(){
             
             if(arr[i]==arr[j]){
                  count++;
+                 break;
                
             }
 
