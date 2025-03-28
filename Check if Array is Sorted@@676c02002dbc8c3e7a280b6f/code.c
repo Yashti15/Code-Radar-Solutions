@@ -5,7 +5,7 @@
 void sorted(int arr[],int n){
     for(int i=0,j=n-1;i<=j;i++){
         bool sort=false;
-        if(arr[i]>=arr[j]){
+        if(arr[i]<=arr[j]){
             sort=true;
         }
 
@@ -23,7 +23,7 @@ int main(){
     }
     sorted(arr,n);
     int sort;
-    if(sort==false){
+    if(sort==true){
         printf("Sorted");
     }
     else{
