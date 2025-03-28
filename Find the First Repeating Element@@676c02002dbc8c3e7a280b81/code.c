@@ -11,9 +11,6 @@ void repeat(int arr[],int n){
                 printf("-1");
             }
         }
-
-
-
     return ;
 }
 #include <stdio.h>
