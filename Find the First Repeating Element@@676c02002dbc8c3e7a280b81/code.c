@@ -14,6 +14,20 @@ void repeat(int arr[],int n){
     return ;
 }
 #include <stdio.h>
+void repeat(int arr[],int n){
+    for(int i=0;i<n;i++){
+        for(int j=i+1;j<n;j++){
+            if(arr[i]==arr[j]){
+                int repeated=arr[i];
+                printf("%d",repeated);
+                break;
+            }
+            else{
+                printf("-1");
+            }
+        }
+    return ;
+}
 int main(){
     int n;
     scanf("%d\n",&n);
