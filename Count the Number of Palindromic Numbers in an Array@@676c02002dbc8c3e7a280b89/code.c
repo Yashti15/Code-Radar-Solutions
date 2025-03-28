@@ -1,11 +1,11 @@
 // Your code here...
 #include <stdio.h>
-int palindrome(num){
+int palindrome(int num){
     int original,reversed=0,remainder=0;
     while(num>0){
         original=num;
         remainder=num%10;
-        reversed=reversed*10+remainder
+        reversed=reversed*10+remainder;
         num/=10;
     }
     return original==reversed;
