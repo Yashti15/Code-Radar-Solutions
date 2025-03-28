@@ -2,8 +2,9 @@
 #include <stdio.h>
 int palindrome(int num){
     int original,reversed=0,remainder=0;
+    original=num;
     while(num>0){
-        original=num;
+        
         remainder=num%10;
         reversed=reversed*10+remainder;
         num/=10;
@@ -11,9 +12,10 @@ int palindrome(int num){
     return original==reversed;
 }
 int count(int arr[],int n){
+    int count=0;
     for(int i=0;i<n;i++){
-        int count=0;
-        if(palindorme(arr[i])){
+        
+        if(palindrome(arr[i])){
             count++;
         }
         
