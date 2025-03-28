@@ -13,20 +13,12 @@ int main(){
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             if(arr[i]+arr[j]==t){
-                pair1=arr[i];
-                pair2=arr[j];
-
+                printf("%d %d\n",arr[i],arr[j]);
                 
             }
            
         }
     }
-    printf("%d %d\n",pair1,pair2);
-   
-
-
-
-
-
+    
     return 0;
 }
