@@ -22,6 +22,7 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     sorted(arr,n);
+    int sort;
     if(sort==true){
         printf("Sorted");
     }
