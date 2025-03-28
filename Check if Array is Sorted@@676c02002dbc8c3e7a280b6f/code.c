@@ -1,5 +1,7 @@
 // Your code here...
 #include <stdio.h>
+#include <stdbool.h>
+
 void sorted(int arr[],int n){
     for(int i=0,j=n-1;i<=j;i++){
         bool sort=false;
