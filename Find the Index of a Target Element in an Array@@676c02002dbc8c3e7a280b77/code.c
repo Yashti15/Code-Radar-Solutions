@@ -15,15 +15,11 @@ for(int i=0;i<n;i++){
         printf("%d",i);
         break;
     }
-    else{
+    
+}
+else{
         printf("-1");
     }
-}
-
-
-
-
-
 
     return 0;
 }
