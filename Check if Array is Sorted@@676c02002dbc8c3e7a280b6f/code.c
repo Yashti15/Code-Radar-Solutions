@@ -3,10 +3,12 @@
 #include <stdbool.h>
 
 void sorted(int arr[],int n){
-    for(int i=0,j=n-1;i<=j;i++){
+    for(int i=0,i<n;i<=j;i++){
+        for(int j=i+1;j<n;j++){
         bool sort=false;
         if(arr[i]>=arr[j]){
             sort=false;
+        }
         }
 
     }
