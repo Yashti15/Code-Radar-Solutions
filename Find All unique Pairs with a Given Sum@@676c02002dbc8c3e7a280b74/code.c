@@ -21,6 +21,7 @@ int main(){
             printf("%d %d\n",pair1,pair2);
         }
     }
+    printf("%d %d\n",pair1,pair2);
    
 
 
