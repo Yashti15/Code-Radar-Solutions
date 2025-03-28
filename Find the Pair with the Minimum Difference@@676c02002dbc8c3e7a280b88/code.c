@@ -10,13 +10,14 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
+    int pair1,pair2;
     int max=INT_MAX;
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             if(abs(arr[i]-arr[j])<max){
                max=abs(arr[i]-arr[j]);
-               int pair1=arr[i];
-               int pair2=arr[j];
+                pair1=arr[i];
+                pair2=arr[j];
             }
         }
     }
