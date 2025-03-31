@@ -2,17 +2,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-void sorted(int arr[],int n){
-   
-    for(int i=0;i<n;i++){
-        if(arr[i+1]>arr[i]){
-           int sort=1;
-        }
-        
-    }
-     return 0;
-    
-}
 int main(){
     int n;
     scanf("%d\n",&n);
@@ -20,11 +9,27 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    if(sorted){
-        printf("Sorted");
-    }
-    else{
-        printf("Not Sorted");
+    for(int i=0;i<n;i++){
+        bool flag=false
+        for(int j=0;j<n-1;j++){
+            if(arr[j]>arr[j+1]){
+                int temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=temp;
+                flag=false;
+            }
+            else{
+                flag=true;
+            }
+        }
+        if(flag==true){
+            for(int i=0;i<n;i++){
+                printf("%d ",arr[i]);
+            }
+        }
+        else{
+            printf("Not Sorted");
+        }
     }
     
     
