@@ -4,8 +4,13 @@ void frequency(int arr[],int n,int target){
     for(int i=0;i<n-1;i++){
         for(int j=0;j<n;j++){
             if(arr[i]+arr[j]==target){
-                printf("%d %d\n",arr[i],arr[j]);
-                break;
+                if(i>j){
+                printf("%d %d\n",arr[i],arr[j]);}
+                else{
+                    printf("%d %d\n",arr[i],arr[j]);
+                }
+
+                
             }
         }
     }
