@@ -23,9 +23,7 @@ int main(){
             }
         }
         if(flag==true){
-            for(int i=0;i<n;i++){
-                printf("%d ",arr[i]);
-            }
+            printf("Sorted");
         }
         else{
             printf("Not Sorted");
