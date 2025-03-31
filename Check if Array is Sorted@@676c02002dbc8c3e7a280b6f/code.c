@@ -22,14 +22,14 @@ int main(){
                 flag=true;
             }
         }
-        if(flag==true){
+        
+    }
+    if(flag==true){
             printf("Sorted");
         }
         else{
             printf("Not Sorted");
         }
-    }
-    
     
     
 
