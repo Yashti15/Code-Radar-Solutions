@@ -10,3 +10,8 @@ int buubleSort(int arr,int n){
     }
  
 }
+void print array(int arr,int n){
+    for(int i=0;i<n;i++){
+        printf("%d",arr[i]);
+    }
+}
