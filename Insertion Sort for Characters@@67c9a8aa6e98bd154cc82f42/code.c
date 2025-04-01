@@ -1,20 +1,20 @@
 // Your code here...
 #include <stdio.h>
-#include <string.h>
 void printArray(char arr[],int n){
-    for(int i=0;i<n;i++){
+    for(int i=0; i<n;i++){
         printf("%c ",arr[i]);
     }
 }
-void insertionSort(char arr[],int n){
-    
-    for(int i=1; i<n;i++){
-        int key = arr[i];
-        int j = i-1;
-        while(j>=0 && arr[j]>key){
-            arr[j+1] = arr[j];
-            j--;
+void selectionSort(char arr[],int n){
+    for(int i=0;i<n-1;i++){
+        int minindex = i;
+        for(int j=i;j<n;j++){
+            if(arr[j]<arr[minindex]){
+                minindex = j;
+            }
         }
-        arr[j+1] = key;
+        char temp = arr[i];
+        arr[i] = arr[minindex];
+        arr[minindex] = temp;
     }
 }
